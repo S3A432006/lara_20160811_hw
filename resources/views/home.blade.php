@@ -89,8 +89,9 @@
             <a href="https://laravel-news.com">News</a>
             <a href="https://forge.laravel.com">Forge</a>
             <a href="https://github.com/laravel/laravel">GitHub</a>
-            <input type="button" value="關於本站">
-            <input type="button" value="最新消息">
+            <input type ="button" onclick="javascript:location.href='{{route ('about.index') }}'" value="關於本站"></input>
+            <input type ="button" onclick="javascript:location.href='{{route ('news.index') }}'" value="最新消息"></input>
+
         </div>
     </div>
 </div>
